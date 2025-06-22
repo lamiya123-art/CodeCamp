@@ -1,0 +1,82 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1 id="title">Digital MoodBoard Survey Form</h1>
+  <p id="description">Help us improve by sharing your feedback!</p>
+
+  <form id="survey-form">
+
+    <fieldset>
+      <label id="name-label">Enter your name:
+        <input id="name" type="text" name="name" placeholder="Enter your name" required />
+      </label><br>
+
+      <label id="email-label">Enter your email:
+        <input id="email" type="email" name="email" placeholder="Enter your email" required />
+      </label><br>
+
+      <label id="number-label">Enter a number:
+        <input id="number" type="number" name="phone" min="10" max="9999999999" placeholder="Ph.no." required />
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <label for="dropdown">Favourite Art Style:</label><br>
+      <select id="dropdown" name="art-style">
+        <option value="">-- Select an option --</option>
+        <option value="minimalist">Minimalist</option>
+        <option value="retro">Retro</option>
+        <option value="abstract">Abstract</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <label>Upload inspirational moodBoard:
+        <input type="file" name="moodboard" />
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Choose Theme</legend>
+      <label><input type="radio" name="theme" value="nature" /> Nature</label><br>
+      <label><input type="radio" name="theme" value="cyberpunk" /> Cyberpunk</label><br>
+      <label><input type="radio" name="theme" value="pastel" /> Pastel</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Select Your Favorite Color Palettes</legend>
+      <label><input type="checkbox" name="palette" value="pastel" /> Pastel</label><br>
+      <label><input type="checkbox" name="palette" value="vibrant" /> Vibrant</label><br>
+      <label><input type="checkbox" name="palette" value="monochrome" /> Monochrome</label><br>
+      <label><input type="checkbox" name="palette" value="earthy" /> Earthy</label>
+    </fieldset>
+
+    <fieldset>
+      <label for="mood-description">Mood Description:</label><br>
+      <textarea id="mood-description" name="mood-description" rows="4" cols="50"></textarea>
+    </fieldset>
+
+    <fieldset>
+      <button id="submit" type="submit">Submit</button>
+    </fieldset>
+
+  </form>
+</body>
+</html>
+
+
+** end of index.html **
+
+** start of styles.css **
+
+
+
+** end of styles.css **
+
