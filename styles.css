@@ -1,0 +1,10 @@
+body {
+  background-image: url("https://i.pinimg.com/736x/bb/b6/4f/bbb64f1fd22803568a7fc0f77f566cf1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+fieldset{
+  border-color:black;
+}
+
